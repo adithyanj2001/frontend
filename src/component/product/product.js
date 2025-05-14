@@ -6,7 +6,7 @@ import productimg from '../../images/acerpng.png';
 import productimg1 from '../../images/asuspng.png';
 import productimg2 from '../../images/applepng.png';
 import './product.css';
-import lap1 from '../../images/aspire5.png';
+// import lap1 from '../../images/aspire5.png';
 import lap2 from '../../images/asusvivo.png';
 import lap3 from '../../images/macbookair.png';
 
@@ -15,7 +15,7 @@ const Product = () => {
 
   const products = [
     {
-      img: lap1,
+      img: lap3,
       title: "Apple Macbook M4 pro",
       desc: "M4 pro chip, 24GB RAM, 512GB SSD",
       originalPrice: 209999,
@@ -30,12 +30,12 @@ const Product = () => {
     },
     {
       img: lap3,
-      title: "MacBook Air",
-      desc: "Apple M1 Chip, 8GB Unified Memory, 256GB SSD",
-      originalPrice: 99000,
-      price: 89000
+      title: "Apple Macbook Air",
+      desc: "M4 pro chip, 16GB RAM, 256GB SSD",
+      originalPrice: 129999,
+      price: 109090
     },
-  ];
+  ]; 
 
   return (
     <>
